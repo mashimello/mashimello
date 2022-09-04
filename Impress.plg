@@ -1,0 +1,61 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Impress - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP1E.tmp" with contents
+[
+/nologo /MTd /w /W0 /Gm /GR /GX /ZI /Od /I "D:\Programming\intel\plsuite\Include\\" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /Fr"Debug/" /Fp"Debug/Impress.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\Programming\Impress Lite\Image.cpp"
+"E:\Programming\Impress Lite\ImpressDoc.cpp"
+"E:\Programming\Impress Lite\Rsmp.cpp"
+"E:\Programming\Impress Lite\Signal.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP1E.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP1F.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/Impress.pdb" /debug /machine:I386 /out:"Debug/Impress.exe" /pdbtype:sept /libpath:"D:\Programming\intel\plsuite\Lib\MSVC" 
+".\Debug\ChildFrm.obj"
+".\Debug\DB.obj"
+".\Debug\FFT.obj"
+".\Debug\FourierTransformDialog.obj"
+".\Debug\Image.obj"
+".\Debug\Impress.obj"
+".\Debug\ImpressDoc.obj"
+".\Debug\ImpressView.obj"
+".\Debug\MainFrm.obj"
+".\Debug\PreviewWindow.obj"
+".\Debug\PropDialog.obj"
+".\Debug\RotateAngleDialog.obj"
+".\Debug\Rsmp.obj"
+".\Debug\Signal.obj"
+".\Debug\StdAfx.obj"
+".\Debug\Store.obj"
+".\Debug\TransformDialog.obj"
+".\Debug\Transfrm.obj"
+".\Debug\Impress.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP1F.tmp"
+<h3>Output Window</h3>
+Compiling...
+Image.cpp
+e:\programming\impress lite\filter.h(7) : fatal error C1083: Cannot open include file: 'nsp.h': No such file or directory
+ImpressDoc.cpp
+e:\programming\impress lite\filter.h(7) : fatal error C1083: Cannot open include file: 'nsp.h': No such file or directory
+Rsmp.cpp
+e:\programming\impress lite\filter.h(7) : fatal error C1083: Cannot open include file: 'nsp.h': No such file or directory
+Signal.cpp
+e:\programming\impress lite\filter.h(7) : fatal error C1083: Cannot open include file: 'nsp.h': No such file or directory
+Generating Code...
+Error executing cl.exe.
+
+
+
+<h3>Results</h3>
+Impress.exe - 4 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

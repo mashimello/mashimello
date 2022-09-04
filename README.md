@@ -1,0 +1,5 @@
+- 👋 Hi, I’m @mashimello
+- 👀 I’m interested in listening to rain sound while coding
+- 🌱 I’m currently learning to live
+- 💞️ I’m looking to collaborate on imaging, imagination, signal and noise coding.
+- 📫 How to reach me lunokhod@protonmail.com
